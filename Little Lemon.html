@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Little Lemon</title>
+    </head>
+    <body>
+        <h1>Our Menu</h1>
+        <h2>Falafel</h2>
+        <p>Chickpea, herbs and spices.</p>
+        <img src="falafel.jpeg" width="240" height="135" alt="A Falafel">
+        <h2>Paste Salad</h2>
+        <p>Lettuce, vegetabble and mozzarella.</p>
+        <img src="salad.jpeg" width="240" height="135" alt="A Paste Salad">
+        <br>
+        <a href="location.html">Our Location</a>
+        <style>
+            table, td, th {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+        </style>
+        <table>
+            <tr>
+                <th>Dish</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Falafel</td>
+                <td>$10.00</td>
+            </tr>
+            <tr>
+                <td>Paste Salad</td>
+                <td>$12.00</td>
+            </tr>
+        </table>
+        <br><br>
+        <form action =”/registration” method=”POST”>
+            <label for=”username”>Username:</label><br>
+            <input type=”text” name=”username”>
+            <br><br>
+            <label for=”password”>Password:</label><br> 
+            <input type=”password” />
+        </form>
+        <br><br>
+        <input type=”checkbox” name=”dog” value=”Dog” />
+        <label for =”dog”> I own a dog </label><br> 
+        <input type=”checkbox” name=”cat” value=”Cat” />
+        <label for =”cat”> I own a cat </label><br> 
+        <br><br>
+        <select name”food”>
+            <option value=”chocolate”>Chocolate</option>
+            <option value=”ice_cream”>Ice Cream</option>
+        </select>
+    </body>
+</html>
